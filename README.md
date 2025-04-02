@@ -52,11 +52,29 @@ You’re free to choose **mobile (React Native/Expo)** or **web (Next.js)** for 
 
 ---
 
+### ✅ Backend Tests (Required)
+
+We’d like you to include at least **basic automated tests** for your backend logic.
+
+#### What you should test:
+- ✅ At least 1 route from your API (e.g., `GET /flashcards`, `POST /login`)
+- ✅ One core logic function (e.g., mark flashcard as studied)
+
+#### What we’ll look for:
+- Proper use of a test framework like `pytest` or `unittest`
+- Clear file organization (`/tests`, `test_*.py`)
+- Reproducibility (`requirements.txt` or `pip install -r requirements-dev.txt`)
+
+> Bonus for using mocks/stubs and covering edge cases — but keep it simple and clean.
+
+---
+
 ## 🧪 What We'll Evaluate
 
 - 📐 Code structure & readability
 - 💡 Product thinking & UX
 - 🧰 Backend logic & API design
+- 🧪 Test coverage and structure for the backend
 - ⚡ Creativity & polish
 - 📝 Communication: comments, commit messages, and this README
 
@@ -64,9 +82,11 @@ You’re free to choose **mobile (React Native/Expo)** or **web (Next.js)** for 
 
 ## 📦 How to Submit
 
-1. Push to a **private GitHub repo** (or public if you're comfortable)
-2. Share the repo link with us
+1. Push to a **private GitHub repo**
+2. Add Thiago Maffei (thiagopmaffeid@gmail.com) as a **collaborator**
 3. Include a short Loom (optional) if you want to walk us through your work
+4. ✅ Include instructions in your README to run your backend tests
+   - e.g., `pytest` or `python -m unittest discover`
 
 ---
 
@@ -108,3 +128,24 @@ You can start with a sample list of flashcards:
   }
 ]
 ```
+
+---
+
+## 📞 Contact Us
+
+Have any questions or need clarification?
+
+**Email:** thiagopmaffeid@gmail.com  
+We’re happy to help!
+
+---
+
+If you’re managing the challenge repo, don’t forget to:
+
+- [ ] Create a private GitHub repository (e.g., `rdmedicine-flashcards-challenge`)
+- [ ] Add `thiagopmaffeid@gmail.com` as a **collaborator**
+- [ ] Paste this `README.md` as the root documentation
+
+---
+
+Good luck — and have fun! 🚀
